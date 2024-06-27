@@ -15,3 +15,5 @@ conda create --name FT_SAM --file requirements.txt
 The code to process the data is Fine_tune_SAM_fractures.py. It has 3 main parts: Data manipulation, image augmentation and training. The output is a .pth file with the trained weights.
 
 ## Inference
+
+It will do some data manipulation and will use the weights produced in the previous step to perform an inference of fracture identification
